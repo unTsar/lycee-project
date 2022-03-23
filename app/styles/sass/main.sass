@@ -16,13 +16,44 @@ nav
 		list-style-type: none
 		margin: 0
 		padding: 0
-		display: flex
-		align-items: center
-		justify-content: space-between
-		flex-wrap: wrap
 		li
-			line-height: 1.3
+			display: inline-block
 			max-width: 21em
+			min-width: 11em
+			margin: 0 1.1em
+			vertical-align: middle
+			line-height: 1.3
+			a
+				width: 100%
+				padding: 2.2em 0
+				display: inline-block
+				transition: 0.5s
+		li:first-child
+			margin-left: 0
+			margin-right: 5.5em
+			min-width: auto
+			a
+				padding: 0
+		img
+			width: 141px
+.article-head
+	text-align: center
+	font-size: 36px
+	background-color: #C4C4C4
+	color: #ffffff
+	padding: 16px 0
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+	position: relative
+	z-index: 1000
+article
+	position: relative
+	z-index: 999
+
+
+
+@media only screen and (max-width: 1919px)
+	nav
+		font-size: 17px
 
 
 
