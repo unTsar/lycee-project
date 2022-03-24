@@ -14,28 +14,32 @@ nav
 	font-size: 24px
 	ul
 		list-style-type: none
-		margin: 0
-		padding: 0
+		margin: 0 auto
+		padding: 0 0 0 2em
+		max-width: 80em
+		p
+			margin: 0
+			text-align: left
+		a
+			width: 100%
+			padding: 49px 0
+			display: inline-block
+			transition: 0.5s
 		li
 			display: inline-block
-			max-width: 21em
-			min-width: 11em
-			margin: 0 1em
+			min-width: 14em
 			vertical-align: middle
 			line-height: 1.3
+			text-align: center
+		li.p
 			a
-				width: 100%
-				padding: 2.2em 0
-				display: inline-block
-				transition: 0.5s
+				padding: 33.5px 0
 		li:first-child
-			margin-left: 0
-			margin-right: 5.5em
+			margin-left: -2em
+			margin-right: 2em
 			min-width: auto
 			a
 				padding: 0
-		img
-			width: 141px
 .article-head
 	text-align: center
 	font-size: 36px
@@ -53,7 +57,12 @@ article
 
 @media only screen and (max-width: 1919px)
 	nav
-		font-size: 17px
+		font-size: 18px
+		img
+			width: 123px
+		ul
+			a
+				padding: 45px 0
 
 
 
