@@ -7,7 +7,7 @@ article
 		margin-bottom: 30px
 		margin-top: 25px
 	img
-		max-width: 49.9%
+		max-width: 50%
 		padding: 0 25px
 		margin: 10px 0
 	img.float-left
@@ -18,9 +18,14 @@ article
 		display: block
 		margin-left: auto
 		margin-right: auto
-	img.sm
-		max-width: 33%
+	.flex
+		display: flex
+		align-items: center
+	img.cell-3
+		max-width: 33.3%
 	.persons
+		.flex
+			align-items: flex-start
 		ul
 			li
 				margin-bottom: 10px
@@ -30,7 +35,7 @@ article
 				font-weight: bold
 				margin-bottom: 15px
 		ul.cell-2
-			width: 49.9%
+			width: 50%
 			display: inline-block
 			vertical-align: top
 		ol
@@ -44,8 +49,8 @@ article
 			text-align: center
 			padding: 0
 			margin: 0 0 25px 0
-	
-			
 
-
-
+@media only screen and (max-width: 1899px)
+	article
+		padding-left: 17%
+		padding-right: 17%

@@ -7,16 +7,17 @@
 h1
 	margin: 0
 *:focus
-	//outline: none
+	outline: none
 nav
 	background-color: #6C996B
 	color: #FFFFFF
 	font-size: 24px
+	text-align: center
 	ul
 		list-style-type: none
-		margin: 0 auto
-		padding: 0 0 0 2em
-		max-width: 80em
+		margin: 0
+		padding: 0 0 0 1em
+		position: relative
 		p
 			margin: 0
 			text-align: left
@@ -27,19 +28,24 @@ nav
 			transition: 0.5s
 		li
 			display: inline-block
-			min-width: 13.8em
+			width: 14em
 			vertical-align: middle
 			line-height: 1.3
 			text-align: center
 		li.p
 			a
 				padding: 33.5px 0
+				text-align: right
+			p
+				display: inline-block
+		li:first-child, li:nth-child(6)
+			width: 20.9em
 		li:first-child
-			margin-left: -2em
-			margin-right: 2.6em
-			min-width: auto
-			a
-				padding: 0
+			text-align: right
+			img
+				position: absolute
+				top: 0
+				left: 0
 .article-head
 	text-align: center
 	font-size: 36px
@@ -57,16 +63,11 @@ article
 
 
 
-@media only screen and (max-width: 1919px)
+@media only screen and (max-width: 1899px)
 	nav
 		font-size: 18px
-		img
-			width: 123px
 		ul
 			a
 				padding: 45px 0
-
-
-
-
-
+			img
+				width: 123px
