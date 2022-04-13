@@ -1,0 +1,66 @@
+article
+	color: #fff
+	font-size: 36px
+	text-align: center
+	line-height: 1.3
+	.head
+		background-color: #000
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+		padding: 18.5px 7%
+		p
+			display: inline-block
+			max-width: 54%
+			margin: 0
+			text-align: left
+	.content
+		padding: 0 13.15%
+		.wrap
+			background-color: #6C996B
+		.item
+			padding: 35px 0 45px 0
+			p	
+				padding: 0 7%
+			img
+				width: 100%
+				margin-bottom: 25px
+				padding: 0 14%
+			img.tall
+				padding: 0 28%
+		.flex
+			display: flex
+			justify-content: space-around
+			align-items: flex-start
+			img
+				width: auto
+				padding: 0
+				max-width: 50%
+			.item
+				max-width: 53.3%
+				img
+					max-width: none
+					width: 100%
+				p
+					padding: 0 3%
+					display: inline-block
+		.flex.ai-flex-end
+			align-items: flex-end
+		.table
+			.cell:first-child
+				border-right: 11px solid #000
+			.flex
+				border-bottom: 11px solid #000
+			.cell
+				padding: 2% 5%
+				img
+					max-width: none
+					width: 100%
+		.table.closed
+			.flex:first-child
+				border-top: 11px solid #000
+@media only screen and(max-width: 1899px)
+	article
+		.content
+			padding: 0
+		.head
+			p
+				max-width: 85%
